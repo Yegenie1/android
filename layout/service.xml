@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnReturn"
+        android:text="돌아가기"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:id="@+id/btncall"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="전화 문의"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:id="@+id/btnQnA"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="자주 묻는 질문"/>
+
+    </LinearLayout>
+
+</LinearLayout>
